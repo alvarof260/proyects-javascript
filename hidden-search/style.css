@@ -1,0 +1,49 @@
+*{
+    border: 0%;
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background: linear-gradient(to bottom, #0eb2fd, #0d7eb3);
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+input{
+    width: 250px;
+    height: 32px;
+    border: none;
+    outline: none;
+    width: 0;
+    transition: all 1s 0s ease-in;
+    background-color: transparent;
+}
+
+.active{
+    width: 280px;
+}
+
+.svg{
+    height: 24px;
+    width: 24px;
+}
+
+.btn{
+    height: 34px;
+    width: 34px;
+    border: none;
+    background-color: transparent;
+}
